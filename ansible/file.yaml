@@ -1,0 +1,8 @@
+- hosts: "localhost"
+  tasks:
+    - file:
+        path: /tmp/ansible
+        owner: "hiroki.ohtsuka"
+        group: 'INTRA\Domain Users'
+        state: touch
+        mode: "u=rw,g=r,o=r"

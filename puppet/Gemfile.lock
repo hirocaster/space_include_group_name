@@ -1,0 +1,33 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    CFPropertyList (3.0.0)
+    facter (2.5.1)
+    fast_gettext (1.1.2)
+    hiera (3.4.5)
+    hocon (1.2.5)
+    httpclient (2.8.3)
+    locale (2.1.2)
+    multi_json (1.13.1)
+    puppet (6.0.4)
+      facter (> 2.0.1, < 4)
+      fast_gettext (~> 1.1.2)
+      hiera (>= 3.2.1, < 4)
+      httpclient (~> 2.8)
+      locale (~> 2.1)
+      multi_json (~> 1.10)
+      puppet-resource_api (~> 1.5)
+      semantic_puppet (~> 1.0)
+    puppet-resource_api (1.6.2)
+      hocon (>= 1.0)
+    semantic_puppet (1.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  CFPropertyList
+  puppet
+
+BUNDLED WITH
+   1.17.1
